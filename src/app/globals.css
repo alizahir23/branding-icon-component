@@ -37,7 +37,8 @@ body {
   right: 20px;
   color: white;
   max-width: calc(0.6 * 100vw);
-  transition: 250ms;
+  transition: 250ms ease-in-out;
+
   /* BACKGROUND COLOR */
 
   /* BOX SHADOW */
@@ -335,19 +336,21 @@ body {
   width: 100wh;
   height: 100vh;
   color: #fff;
-  transition: 300ms ease-in-out;
+  transition: 250ms ease-in-out;
   position: fixed;
   border-radius: 250px;
   border-bottom-right-radius: 0;
   bottom: 0px;
   right: 0px;
+
   background: linear-gradient(
     -45deg,
-    #ee76529e,
-    #e73c7ea0,
-    #23a5d592,
-    #23d5ab9b
+    #f3593345,
+    #23a5d530,
+    #e9009442,
+    #23d5ab2d
   );
+  backdrop-filter: blur(4px);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
