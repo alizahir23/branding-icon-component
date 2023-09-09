@@ -96,6 +96,7 @@ body {
   z-index: 100;
   background-color: #222222a4;
   padding: 24px 24px 0 24px;
+  -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
 }
 
@@ -350,6 +351,7 @@ body {
     #e9009442,
     #23d5ab2d
   );
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
